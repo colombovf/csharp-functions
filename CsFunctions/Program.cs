@@ -15,15 +15,19 @@ void StampaArrayInteri(int[] arrayInteri)
         }
         else
         {
-            Console.Write('"' + arrayInteri[i]+ " , ");
+            Console.Write('"' + arrayInteri[i] + " , ");
         }
     }
     Console.WriteLine("]");
-    /* VERSIONE FOREACH 
-     
-     * foreach(int numero in arrayInteri){
-     *      Console.WriteLine(numero);ù
-     * }
-    
-     */
+}
+
+/*int Quadrato(int numero): che vi restituisca il 
+ * quadrato del numero passato come parametro.*/
+int number = 4;
+QuadratoDelNumero(number);
+
+void QuadratoDelNumero (int number)
+{
+    number*= number;
+    Console.WriteLine(number);
 }
